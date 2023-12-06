@@ -1,13 +1,13 @@
-package ec.ups.edu.gateway;
+package ec.ups.edu.gatewayapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GatewayApplication {
+public class GatewayAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GatewayApplication.class, args);
+		SpringApplication.run(GatewayAppApplication.class, args);
 	}
 
 }
