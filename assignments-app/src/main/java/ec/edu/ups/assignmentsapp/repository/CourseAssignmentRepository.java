@@ -7,4 +7,8 @@ import java.util.List;
 
 public interface CourseAssignmentRepository extends MongoRepository<CourseAssignment, String> {
     List<CourseAssignment> findByUserId(String userId);
+
 }
+
+
+

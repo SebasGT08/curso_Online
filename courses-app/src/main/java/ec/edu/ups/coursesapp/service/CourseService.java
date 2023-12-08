@@ -33,8 +33,10 @@ public class CourseService {
     public List<Course> getCoursesByCategory(String category) {
         return courseRepository.findByCategory(category);
     }
+
     public List<Course> getAllCourses() {
         return courseRepository.findAll();
     }
     
+
 }

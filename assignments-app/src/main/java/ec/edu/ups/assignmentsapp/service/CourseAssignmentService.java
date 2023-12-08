@@ -66,7 +66,9 @@ public class CourseAssignmentService {
     public void deleteAssignment(String id) {
         assignmentRepository.deleteById(id);
     }
+
     public List<CourseAssignment> getAssignmentsByUserId(String userId) {
         return assignmentRepository.findByUserId(userId);
     }
+
 }

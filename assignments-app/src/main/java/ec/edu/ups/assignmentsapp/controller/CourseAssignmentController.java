@@ -49,6 +49,7 @@ public class CourseAssignmentController {
         return ResponseEntity.ok().build();
     }
 
+
     @GetMapping("/byUser/{userId}")
     public ResponseEntity<List<CourseAssignment>> getAssignmentsByUserId(@PathVariable String userId) {
         List<CourseAssignment> assignments = assignmentService.getAssignmentsByUserId(userId);
@@ -60,4 +61,5 @@ public class CourseAssignmentController {
 
         return ResponseEntity.ok(assignments);
     }
+
 }
